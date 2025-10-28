@@ -5,11 +5,12 @@ import { Button } from '@/components/ui/button';
 
 const colors = [
   { name: 'Красный', color: '#FF6B6B', emoji: '🍎' },
-  { name: 'Синий', color: '#4ECDC4', emoji: '🦋' },
+  { name: 'Оранжевый', color: '#FFA07A', emoji: '🍊' },
   { name: 'Жёлтый', color: '#FFE66D', emoji: '🌟' },
   { name: 'Зелёный', color: '#95E1D3', emoji: '🐸' },
-  { name: 'Розовый', color: '#F38181', emoji: '🌸' },
-  { name: 'Фиолетовый', color: '#AA96DA', emoji: '🍇' }
+  { name: 'Синий', color: '#4ECDC4', emoji: '🦋' },
+  { name: 'Фиолетовый', color: '#AA96DA', emoji: '🍇' },
+  { name: 'Розовый', color: '#F38181', emoji: '🌸' }
 ];
 
 type GameMode = 'menu' | 'learning' | 'playing';
